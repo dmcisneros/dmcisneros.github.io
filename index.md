@@ -37,25 +37,25 @@ Partimos de una imágen de jenkins con la última versión de dockerhub a la que
 
 ![](https://raw.githubusercontent.com/dmcisneros/dmcisneros.github.io/master/assets/images/ci/jenkins-jobs.png)
 
-*   Task_Update_Repository: Actualizará el código del repositorio.
-*   Task_QA: Ejecución de análisis estático de código.
-*   Task_Sonar: Envío de código a analizar por sonar.
-*   Task_Junit: Ejecución de pruebas unitarias
-*   Task_Build_Layouts: Compilación con gulp de layouts
-*   Task_Build_Modules: Compilación con gradle de módulos
-*   Task_Build_Themes: Compilación gulp
-*   Task_Upload_Nexus: Subida a nexus
-*   Task_Deploy: Invocación de .sh para el despliegue al servidor liferay
+*   **Task_Update_Repository:** Actualizará el código del repositorio.
+*   **Task_QA:** Ejecución de análisis estático de código.
+*   **Task_Sonar:** Envío de código a analizar por sonar.
+*   **Task_Junit:** Ejecución de pruebas unitarias
+*   **Task_Build_Layouts:** Compilación con gulp de layouts
+*   **Task_Build_Modules:** Compilación con gradle de módulos
+*   **Task_Build_Themes:** Compilación gulp
+*   **Task_Upload_Nexus:** Subida a nexus
+*   **Task_Deploy:** Invocación de .sh para el despliegue al servidor liferay
 
 
 
 #### [](#header-4)Esclavos-centos
 Partimos de una imágen de centos muy liviana en la que instalamos las herramientas comunes de compilación de los proyectos de Liferay entre las que se encuentran:
 
-*   git
-*   gradle
-*   jdk8 
-*   node
+*   **git**
+*   **gradle**
+*   **jdk8**
+*   **node**
 
 ### [](#header-3)Pipeline: Parallels Jobs 
 
@@ -82,11 +82,11 @@ El proceso de despliegue ha quedado totalmente parametrizable y automatizado, me
 ![](https://raw.githubusercontent.com/dmcisneros/dmcisneros.github.io/master/assets/images/ci/deployment.png)
 
 ## [](#header-2)b.  Software libre utilizado. 
-*   GIT
-*   gradle
-*   docker
-*   jdk8
-*   nexus
+*   **git**
+*   **gradle**
+*   **docker**
+*   **jdk8**
+*   **nexus**
 
 ## [](#header-2)c.  Resumen de pasos para su instalación y prueba. 
 Los pasos necesarios para adaptar la maqueta de integración continua serían los siguientes: 
